@@ -11,3 +11,9 @@ npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
 npm i webpack webpack-cli html-webpack-plugin html-loader --save-dev
 
 ```
+
+Para correr la app, solo es necesario ejecutar: 
+```
+npm run build
+```
+Se creará una carpeta llamada "dist" si todo funciona, el cual tendrá el compilado final de React.
